@@ -46,6 +46,7 @@ $('#btnSend').click(function () {
     }
     // var to hold output text
     let output = ("Final grade: " + ltrGrade);
+    alert(output);
     // sets output p tag text to output var
-    $('#output').text(output)
+    // $('#output').text(output)
 })
